@@ -1,0 +1,361 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .top {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .top__left-part {
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(0, 0, 40);
+  }
+  
+  .top__right-part__social-media {
+    width: 25px;
+    margin-right: 6px;
+    border-radius: 50%;
+    border: none;
+  }
+  
+  .nav-bar {
+    background-color: rgb(253, 253, 253);
+    padding: 5px 15px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.17);
+  }
+  
+  .logo {
+    width: 80px;
+  }
+  
+  .nav-bar__menu {
+    display: grid;
+    grid-template-columns: 0.7fr 0.7fr 0.7fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    float: left;
+    list-style-type: none;
+    overflow: 0;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .nav-bar__menu li {
+    margin: auto 0;
+  }
+  
+  .nav-bar__menu li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    color: rgb(2, 3, 71);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .nav-bar__menu li a:hover {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 43, 118);
+  }
+  
+  .nav-bar__item--active {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 43, 118);
+  }
+  
+  @media screen and (max-width: 700px) {
+    .nav-bar__menu {
+      display: grid;
+      grid-template-columns: 0.7fr 0.7fr 0.7fr 1fr 1fr 1fr 1fr;
+      column-gap: 10px;
+      float: left;
+      list-style-type: none;
+      overflow: 0;
+      font-size: 13px;
+      font-weight: 400;
+    }
+  
+    .logo {
+      width: 45px;
+    }
+  
+    .nav-bar__item--active {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      transition: 0.3s;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 550;
+      color: rgb(0, 43, 118);
+    }
+  
+    .nav-bar__menu li a {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      color: rgb(2, 3, 71);
+      transition: 0.3;
+      cursor: pointer;
+    }
+  
+    .nav-bar__menu li a:hover {
+      font-size: 14px;
+      font-weight: 550;
+      color: rgb(0, 43, 118);
+    }
+  }
+
+
+
+  
+.footer {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .footer__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 75%;
+    margin: auto;
+  }
+  
+  .footer__item a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 12px;
+  }
+  
+  .footer__item__header {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  
+  .footer__logo img {
+    width: 100%;
+  }
+  
+  .footer__links {
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-top: 2.5px solid rgb(30, 30, 30);
+  }
+  
+  .footer__links p {
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .footer__logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin: auto;
+  }
+  
+  .footer__link {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flex__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer__link__item {
+    margin: 0 5px;
+    padding: 0;
+  }
+  
+  .footer__image {
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    margin: auto;
+  }
+  
+  .footer__image img {
+    width: 100%;
+    border-radius: 50%;
+    margin: 0;
+  }
+  
+  .footer__link__name {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 8px;
+    font-weight: 450;
+    padding: 0;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .footer__container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 75%;
+      margin: auto;
+    }
+  
+    .footer__logo {
+      display: none;
+    }
+  
+    .subscribtion p {
+      font-size: 16px;
+      font-weight: 350;
+      text-align: center;
+      margin: auto;
+    }
+  
+    .subscribtion__email {
+      width: 200px;
+      height: 20px;
+      padding: 8px;
+      background-color: rgb(255, 255, 255);
+      border: 2px solid rgb(0, 0, 0);
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      /* margin-right: 25px; */
+    }
+  
+    .subscribe__btn {
+      height: 40px;
+      width: 70px;
+      background-color: rgb(28, 0, 95);
+      color: white;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-left: none;
+      font-size: 14px;
+    }
+  
+    .email__label {
+      font-size: 12px;
+    }
+  
+    .top__right-part {
+      display: none;
+    }
+  
+    .top {
+      display: flex;
+      justify-content: center;
+      padding: 5px;
+      margin-bottom: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .nav-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .logo {
+      width: 40px;
+    }
+  
+    .hamburger__menu {
+      cursor: pointer;
+    }
+  
+    .hamburger__menu .line {
+      display: block;
+      width: 30px;
+      height: 4px;
+      background-color: black;
+      margin: 5px 0;
+    }
+  
+    .nav-bar__menu {
+      display: none;
+    }
+  
+    .nav-bar__menu li {
+      margin: auto 0;
+    }
+  
+    .nav-bar__menu li a {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      transition: 0.3s;
+      cursor: pointer;
+    }
+  
+    .nav-bar__menu li a:hover {
+      font-size: 20px;
+      font-weight: 600;
+      color: rgb(0, 43, 118);
+    }
+  
+    .nav-bar__item--active {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      transition: 0.3s;
+      cursor: pointer;
+      font-size: 20px;
+      font-weight: 600;
+      color: rgb(0, 43, 118);
+    }
+  }
+  
+  .burger-menu {
+    padding: 15px 15px;
+    width: 80%;
+    margin: auto;
+    display: block;
+  }
+  
+  .burger-menu li {
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: 100;
+    background-color: rgb(0, 0, 59);
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .close-btn {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(0, 0, 36);
+  }
+  

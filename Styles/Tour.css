@@ -1,0 +1,241 @@
+.hotels-header {
+  text-align: center;
+  margin-top: 35px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.hotels {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 86%;
+  margin: auto;
+}
+
+.hotels__thumbnail {
+  width: 100%;
+}
+
+.cars__image {
+  width: 80px;
+  margin-right: 25px;
+}
+
+
+@media screen and (max-width: 1300px) {
+  .hotels-header {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .hotels {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 86%;
+    margin: auto;
+  }
+
+  .hotels__thumbnail {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .hotels-header {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .hotels {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 86%;
+    margin: auto;
+  }
+
+  .hotels__thumbnail {
+    width: 100%;
+  }
+
+  .cars__image {
+    width: 50px;
+    margin-right: 25px;
+  }
+  
+}
+
+.hotels__description {
+  margin-left: 40px;
+}
+
+
+.flights-header {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500px;
+}
+
+.flight__text {
+  font-size: 18px;
+}
+
+.flight__header {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.flights {
+  display: flex;
+  align-items: center;
+  width: 82%;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.flights__image {
+  max-width: 500px;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .flights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    width: 84%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .flights__description {
+    max-width: 300px;
+  }
+
+  .flights__image {
+    max-width: 300px;
+    margin-right: 30px;
+  }
+}
+
+.other-flights {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+  margin: 0 30px;
+  width: 82%;
+  margin: auto;
+}
+
+.other-flights__image {
+  height: 300px;
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .other-flights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 82%;
+    margin: auto;
+  }
+
+  .other-flights__item {
+    max-width: 440px;
+  }
+}
+
+.cars-header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 750px) {
+  .cars {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    margin: auto;
+    column-gap: 50px;
+    row-gap: 35px;
+    margin-bottom: 100px;
+  }
+
+  .other-flights__image {
+    height: 300px;
+    width: 100%;
+  }
+
+}
+
+.cars {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.cars__item {
+  display: flex;
+  margin: 20px 0;
+  border-bottom: 2px solid black;
+}
+
+.transport {
+  max-width: 100px;
+}
+
+.cars__description {
+  font-size: 16px;
+  font-weight: 350;
+  margin: 0;
+  padding: 0;
+}
+
+.transport__address > p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.other-transport__header {
+  margin-top: 100px;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.other-transport__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.other-transport__item {
+  margin: 0 10px;
+}
+
+.other-transport__image {
+  width: 140px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+}
+
+.other-transport__text {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 3px;
+}

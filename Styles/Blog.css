@@ -1,0 +1,181 @@
+
+.dallol-dashen__text {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 550;
+}
+
+.dallol-dashen__paragraph {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.dashen{
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  width: 75%;
+  margin: auto;
+  column-gap: 30px;
+}
+
+.dashen__image__container,
+.dallol__image__container {
+  height: 350px;
+}
+
+.dashen__image {
+  width: 100%;
+  height: 90%;
+}
+
+.dashen__image__text {
+  margin-top: 5px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.dashen__description {
+  padding-top: 40px;
+}
+
+.dallol__description {
+  padding-top: 70px;
+}
+
+.dallol__image {
+  width: 100%;
+  height: 80%;
+}
+
+.dallol__image__text {
+  margin-bottom: 5px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.dallol {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
+  width: 75%;
+  margin: auto;
+  column-gap: 30px;
+}
+
+.top-five {
+  margin-top: 50px;
+}
+
+.top-five__header {
+  font-weight: 600;
+  font-size: 18px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(0, 0, 84);
+}
+
+.table {
+  margin: 20px 60px;
+  border-collapse: collapse;
+  width: 70%;
+  margin: auto;
+}
+
+td,
+th {
+  border: 1px solid;
+  text-align: left;
+  padding: 10px;
+}
+
+.recomended__header {
+  font-size: 26px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 75px;
+}
+
+.recomended {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.recomended__video__text {
+  margin-right: 50px;
+}
+
+.recomended__video {
+  width: 100%;
+}
+
+.other__recomended {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+
+.other__recomended__image {
+  margin-right: 50px;
+  margin-bottom: 40px;
+  width: 300px;
+}
+
+.other__recomended__description {
+  margin-right: 120px;
+  border-bottom: 2px solid rgb(19, 0, 143);
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 750px) {
+  .dashen {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 75%;
+    margin: auto;
+    column-gap: 30px;
+  }
+
+  .dallol {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 75%;
+    margin: auto;
+    column-gap: 30px;
+  }
+  .recomended {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .other__recomended {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  .other__recomended__image {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 300px;
+  }
+
+  .other__recomended__description {
+    border-bottom: 2px solid rgb(19, 0, 143);
+    padding-bottom: 20px;
+    margin: auto;
+  }
+}
