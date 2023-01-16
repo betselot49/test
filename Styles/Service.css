@@ -1,0 +1,146 @@
+.service {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 50px 0;
+}
+
+.services__container {
+  display: flex;
+  width: 60%;
+  margin: auto;
+}
+
+.service__image {
+  height: 630px;
+  margin-right: 50px;
+}
+
+.service__text {
+  padding-top: 25%;
+  font-size: 24px;
+  font-weight: 550;
+}
+
+@media screen and (max-width: 1300px) {
+  .services__container {
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+    width: 80%;
+    margin: auto;
+    column-gap: 15px;
+  }
+
+  .service__image {
+    height: 500px;
+    width: 300px;
+  }
+
+  .service__text {
+    padding-top: 2%;
+    font-size: 24px;
+    font-weight: 550;
+  }
+}
+
+.services-grid__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column: 10px;
+  width: 55%;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.service-flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-grid__image {
+  width: 100px;
+  height: 100px;
+}
+.service-grid__text {
+  margin-bottom: 30px;
+}
+
+.you-may__header {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.you-may__grid__container {
+  display: grid;
+  grid-template-columns: 0.75fr 1fr 0.75fr;
+  column-gap: 50px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+.item__image-1,
+.item__image-3 {
+  width: 100%;
+  height: 75%;
+  padding-top: 20px;
+}
+
+.item__image-2 {
+  width: 100%;
+  height: 100%;
+}
+
+.you-may__grid__item {
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .services__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 78%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .service__image {
+    width: 300px;
+    height: 400px;
+  }
+
+  .service__text {
+    padding-top: 2%;
+    font-size: 24px;
+    font-weight: 550;
+  }
+
+  .services-grid__container {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 40px;
+    width: 80%;
+  }
+
+  .you-may__grid__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-bottom: 50px;
+  }
+
+  .service {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 30 px 0;
+  }
+}

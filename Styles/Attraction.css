@@ -1,0 +1,224 @@
+
+.History {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.adwa {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  column-gap: 50px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.adwa__image {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.adwa__header,
+.origin__header,
+.civilization__header {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.adwa__text,
+.origin__text,
+.civilization__text {
+  font-size: 14.5px;
+  /* text-align: justify; */
+}
+
+.origin {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  column-gap: 50px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.origin__image {
+  width: 100%;
+}
+
+.civilization {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  column-gap: 50px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.civilization__image {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.culture__header {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.culture__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 35px;
+  width: 80%;
+  margin: auto;
+}
+
+.coffee__image,
+.wedding__image,
+.holidays__image,
+.clothes__image {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.coffee__description,
+.wedding__description,
+.holidays__description,
+.clothes__description {
+  font-size: 15px;
+}
+
+.holidays__image {
+  margin-bottom: 30px;
+}
+
+.wedding__description {
+  margin-bottom: 90px;
+}
+
+.art__sience__description,
+.main__music__text {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.main__music__header,
+.art__sience__header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 80px;
+}
+
+.music {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  width: 70%;
+  margin: auto;
+  margin-top: 75px;
+}
+
+.music__image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.music__flex {
+  display: flex;
+  align-items: center;
+}
+
+.legends__item,
+.countryside__item {
+  margin-bottom: 30px;
+}
+
+.music__header,
+.music__text {
+  margin: 3px 15px;
+  padding: 0px 0px;
+  font-size: 13px;
+}
+
+@media (max-width: 900px) {
+  .adwa {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .origin {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .civilization {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .music__flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .music {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 70%;
+    margin: auto;
+    margin-top: 75px;
+  }
+
+  .culture__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 510px) {
+  .culture__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
+    margin: auto;
+  }
+
+.coffee__image,
+.wedding__image,
+.holidays__image,
+.clothes__image {
+  max-width: 320px;
+  margin: auto;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.music__player {
+  max-width: 200px;
+
+}
+
+}

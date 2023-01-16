@@ -1,0 +1,134 @@
+.mission {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.mission__image {
+  width: 400px;
+  height: 450px;
+  margin-right: 50px;
+  border-radius: 50px;
+}
+
+.mission__text {
+  border-left: 2px solid rgb(78, 73, 73);
+  padding-left: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .mission__container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+
+  .mission__image {
+    width: 280px;
+    height: 320px;
+    margin-right: 50px;
+    border-radius: 50px;
+  }
+
+  .mission__text {
+    border-left: 2px solid rgb(78, 73, 73);
+    padding-left: 50px;
+  }
+}
+
+.why-choose {
+  margin-top: 100px;
+  border: 3px solid rgb(41, 41, 41);
+  border-radius: 50px;
+  width: 70%;
+  margin: auto;
+  padding: 10px 50px;
+  margin-bottom: 70px;
+}
+
+.why-choose__text {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.why-choose__paragraph {
+  text-align: center;
+  font-size: 16px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 0.8fr 0.9fr 1fr 0.9fr 0.7fr;
+  grid-column: 50px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 70px;
+  column-gap: 30px;
+}
+
+.about__image-1 {
+  width: 100%;
+}
+
+.about__text-1 {
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .mission {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .mission__image {
+    width: 280px;
+    height: 320px;
+    margin-right: 50px;
+    border-radius: 50px;
+    margin-bottom: 35px;
+  }
+
+  .mission__text {
+    border-left: 0px;
+    padding-left: 0px;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .why-choose {
+    margin-top: 100px;
+    border: 2px solid rgb(41, 41, 41);
+    border-radius: 50px;
+    width: 70%;
+    margin: auto;
+    padding: 10px 25px;
+    margin-bottom: 70px;
+  }
+
+  .about__image-1 {
+    max-width: 200px;
+  }
+}
